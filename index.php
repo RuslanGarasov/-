@@ -47,14 +47,24 @@ for ($j = 0; $j < count($array2[$i]); $j++) {
      echo $array2[$i][$j];
     echo '</td>';
 
-  }
+  
 
 echo '</tr>';
 
-
 }
+
 
 echo '</table>';
 
+}
 
+function myEcho() {
+
+echo "Halo Wrold";
+
+}
+
+myEcho(); 
+
+?>
 

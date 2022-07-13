@@ -20,20 +20,12 @@ a:hover {
 /*Хіт продаж і новинка*/
 .badge-success {
     color: #000;
-    position: relative;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    margin-top: 3px;
+    margin-left: 3px;
 }
 
-.btn-success {
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-    width: 90px;
-    margin-left: 140px;
-    font-size: 11px;
+.badge-danger {
+	margin-left: 3px;
 }
 
 /*конка мотоцикла*/
@@ -57,16 +49,18 @@ a:hover {
     border-color: ##5b678a;
     }
 
-    .btn-outline-success {
+    .btn-outline-success-1 {
     color: #5b678a;
     background-color: transparent;
     background-image: none;
     border-color: #5b678a;
     width: 95px;
     font-size: 11px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
-.btn-outline-success:hover {
+.btn-outline-success-1:hover {
     color: #fff;
     background-color: #5b678a;
     border-color: ##5b678a;
@@ -75,4 +69,43 @@ a:hover {
     .h1, h1 {
     font-size: 1rem;
     margin-left: 16px;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #5b678a;
+    }
+
+
+.card-text {
+	height: 5px;
+}
+
+.card-product-row-3 {
+	position: relative;
+	top: 20%;
+}
+
+.btn-group, h1 {
+	font-size: 11px;
+}
+
+.btn-group, h2 {
+	font-size: 20px;
+}
+
+.fa-cart-arrow-down {
+	margin-right: 3px;
+}
+
+.fa-thumbs-up {
+	margin-right: 3px;
+}
+
+.fa-chart-simple {
+	margin-right: 3px;
+}
+
+.fa-star {
+	color: #ffc107;
 }
